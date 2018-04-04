@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d:data xmlns:d="defiant-namespace" d:mi="23" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="defiant-namespace file:///C:/Users/MaddouriF/Documents/These/Env/Ajmi/ontology/BookStore.xsd">
+	<store d:mi="22">
+		<book price="12.99" d:price="Number" d:mi="4">
+			<title d:constr="String" d:mi="1">Sword of Honour</title>
+			<category d:constr="String" d:mi="2">fiction</category>
+			<author d:constr="String" d:mi="3">Evelyn Waugh</author>
+		</book>
+		<book price="8.99" d:price="Number" d:mi="9">
+			<title d:constr="String" d:mi="5">Moby Dick</title>
+			<category d:constr="String" d:mi="6">fiction</category>
+			<author d:constr="String" d:mi="7">Herman Melville</author>
+			<isbn d:constr="String" d:mi="8">0-553-21311-3</isbn>
+		</book>
+		<book price="8.95" d:price="Number" d:mi="13">
+			<title d:constr="String" d:mi="10">50</title>
+			<category d:constr="String" d:mi="11">reference</category>
+			<author d:constr="String" d:mi="12">Nigel Rees</author>
+		</book>
+		<book price="22.99" d:price="Number" d:mi="18">
+			<title d:constr="String" d:mi="14">The Lord of the Rings</title>
+			<category d:constr="String" d:mi="15">fiction</category>
+			<author d:constr="String" d:mi="16">J. R. R. Tolkien</author>
+			<author d:constr="String" d:mi="16">Dr. Faouzi Maddouri</author>
+			<author d:constr="String" d:mi="16">Dr. Abdullah Ajmi</author>
+			<isbn d:constr="String" d:mi="17">0-395-19395-8</isbn>
+		</book>
+		<book price="35.00" d:price="Number" d:mi="35">
+			<title d:constr="String" d:mi="14">Project Management</title>
+			<category d:constr="String" d:mi="15">Academic</category>
+			<isbn d:constr="String" d:mi="17">0-888-11111-8</isbn>
+		</book>		
+		<bicycle price="19.95" d:price="Number" d:mi="21">
+			<brand d:constr="String" d:mi="19">Cannondale</brand>
+			<color d:constr="String" d:mi="20">red</color>
+		</bicycle>
+	</store>
+</d:data>

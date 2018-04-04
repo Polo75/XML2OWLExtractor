@@ -1,0 +1,9 @@
+-namespace}d;store;1;1
+-store;book;5;5
+-store;bicycle;1;1
+-book;title;1;1
+-book;c;1;1
+-book;author;0;3
+-book;isbn;0;1
+-bicycle;brand;1;1
+-bicycle;color;1;1
