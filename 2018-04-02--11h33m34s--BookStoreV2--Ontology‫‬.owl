@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<rdf:RDF xml:base="file://C:/Users/Classroom/Desktop/paython_adel/2018-04-02--11h33m34s--BookStoreV2--Ontology.owl"
+         xmlns="file://C:/Users/Classroom/Desktop/paython_adel/2018-04-02--11h33m34s--BookStoreV2--Ontology.owl#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#">
+
+<owl:Class rdf:about="#namespaced">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#store">
+  <rdfs:subClassOf rdf:resource="#namespaced"/>
+</owl:Class>
+
+<owl:Class rdf:about="#book">
+  <rdfs:subClassOf rdf:resource="#store"/>
+</owl:Class>
+
+<owl:Class rdf:about="#bicycle">
+  <rdfs:subClassOf rdf:resource="#store"/>
+</owl:Class>
+
+<owl:Class rdf:about="#title">
+  <rdfs:subClassOf rdf:resource="#book"/>
+</owl:Class>
+
+<owl:Class rdf:about="#c">
+  <rdfs:subClassOf rdf:resource="#book"/>
+</owl:Class>
+
+<owl:Class rdf:about="#author">
+  <rdfs:subClassOf rdf:resource="#book"/>
+</owl:Class>
+
+<owl:Class rdf:about="#isbn">
+  <rdfs:subClassOf rdf:resource="#book"/>
+</owl:Class>
+
+<owl:Class rdf:about="#brand">
+  <rdfs:subClassOf rdf:resource="#bicycle"/>
+</owl:Class>
+
+<owl:Class rdf:about="#color">
+  <rdfs:subClassOf rdf:resource="#bicycle"/>
+</owl:Class>
+
+<owl:Ontology rdf:about="file://C:/Users/Classroom/Desktop/paython_adel/2018-04-02--11h33m34s--BookStoreV2--Ontology.owl"/>
+
+
+</rdf:RDF>
