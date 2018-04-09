@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<rdf:RDF xml:base="file://C:/Users/faouzi/Documents/ontology/2018-04-08--13h25m57s--b35194--Ontology.owl"
+         xmlns="file://C:/Users/faouzi/Documents/ontology/2018-04-08--13h25m57s--b35194--Ontology.owl#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#">
+
+<owl:Ontology rdf:about="file://C:/Users/faouzi/Documents/ontology/2018-04-08--13h25m57s--b35194--Ontology.owl"/>
+
+<owl:Class rdf:about="#Resident">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Name">
+  <rdfs:subClassOf rdf:resource="#Resident"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PhoneNumber">
+  <rdfs:subClassOf rdf:resource="#Resident"/>
+</owl:Class>
+
+<owl:Class rdf:about="#EmailAddress">
+  <rdfs:subClassOf rdf:resource="#Resident"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Address">
+  <rdfs:subClassOf rdf:resource="#Resident"/>
+</owl:Class>
+
+<owl:Class rdf:about="#StreetLine1">
+  <rdfs:subClassOf rdf:resource="#Address"/>
+</owl:Class>
+
+<owl:Class rdf:about="#City">
+  <rdfs:subClassOf rdf:resource="#Address"/>
+</owl:Class>
+
+<owl:Class rdf:about="#St">
+  <rdfs:subClassOf rdf:resource="#Address"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PostalCode">
+  <rdfs:subClassOf rdf:resource="#Address"/>
+</owl:Class>
+
+
+</rdf:RDF>
